@@ -43,7 +43,7 @@ body {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.123);
 }
 
-.card-header {
+.card-header img {
   background: url(images/bg-pattern-card.svg);
   background-position: center;
   border-top-left-radius: 15px;
@@ -80,6 +80,7 @@ body {
 
 .card-text p {
   font-size: 15px;
+  color: hsl(0, 0%, 59%);
 }
 
 .card-content hr {
@@ -106,6 +107,10 @@ body {
 @media screen and (max-width: 375px){
     .card-container{
         width: 320px;
+    }
+
+    .card-header img{
+      width: 100%;
     }
 
     .card-image{
